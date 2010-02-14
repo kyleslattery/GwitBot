@@ -1,0 +1,1 @@
+GwitBot is a simple way to update a twitter account when code is pushed to GitHub.  Just copy `config.php.example` to `config.php` and fill in the Twitter credentials, set up the script as a service hook, and you're ready to go.
