@@ -10,7 +10,7 @@ require_once("twitter.php");
 $twitter = new Twitter($config['twitter']['username'], $config['twitter']['password']);
 
 // Decode payload
-$payload = json_decode($_GET['payload']);
+$payload = json_decode($_POST['payload']);
 $numCommits = count($payload->commits);
 $commitsPlural = $numCommits != 1 ? "s" : "";
 $branch = str_replace("refs/heads/", "", $payload->ref);
