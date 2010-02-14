@@ -1,0 +1,9 @@
+<?php
+
+$config = array();
+
+$config['twitter'] = array();
+$config['twitter']['username'] = 'USERNAME';
+$config['twitter']['password'] = 'PASSWORD';
+
+?>
